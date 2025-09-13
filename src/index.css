@@ -2,17 +2,24 @@
 @import 'primereact/resources/primereact.min.css';
 @import 'primeicons/primeicons.css';
 
+/* Estilos específicos para ReactFlow en dark mode */
+.react-flow__node-default {
+  background: rgba(55, 65, 81, 0.95) !important;
+  border: 2px solid #7c3aed !important;
+  color: #e5e7eb !important;
+}
+
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 4px;
+  padding: 4px;
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00006d 0%, #000 100%);
   min-height: 100vh;
   color: #333;
 }
@@ -135,11 +142,11 @@ body {
   .app-header h1 {
     font-size: 2rem;
   }
-  
+
   .main-content {
     padding: 1rem;
   }
-  
+
   .result-grid {
     grid-template-columns: 1fr;
   }

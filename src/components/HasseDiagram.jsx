@@ -257,27 +257,27 @@ const HasseDiagram = () => {
       <Card className="mt-4">
         <div className="grid">
           <div className="col-12 md:col-3">
-            <div className="text-center">
-              <h4 className="text-2xl font-bold text-blue-600">{tasks.length}</h4>
-              <p className="text-sm text-gray-600">Total Tareas</p>
+            <div className="text-center p-3 border-round" style={{background: 'rgba(59, 130, 246, 0.1)', border: '1px solid rgba(59, 130, 246, 0.2)'}}>
+              <h4 className="text-3xl font-bold text-blue-400 mb-1">{tasks.length}</h4>
+              <p className="text-sm text-gray-400">Total Tareas</p>
             </div>
           </div>
           <div className="col-12 md:col-3">
-            <div className="text-center">
-              <h4 className="text-2xl font-bold text-green-600">{results.minimalTasks.length}</h4>
-              <p className="text-sm text-gray-600">Tareas Mínimas</p>
+            <div className="text-center p-3 border-round" style={{background: 'rgba(16, 185, 129, 0.1)', border: '1px solid rgba(16, 185, 129, 0.2)'}}>
+              <h4 className="text-3xl font-bold text-emerald-400 mb-1">{results.minimalTasks.length}</h4>
+              <p className="text-sm text-gray-400">Tareas Mínimas</p>
             </div>
           </div>
           <div className="col-12 md:col-3">
-            <div className="text-center">
-              <h4 className="text-2xl font-bold text-red-600">{results.maximalTasks.length}</h4>
-              <p className="text-sm text-gray-600">Tareas Máximas</p>
+            <div className="text-center p-3 border-round" style={{background: 'rgba(244, 63, 94, 0.1)', border: '1px solid rgba(244, 63, 94, 0.2)'}}>
+              <h4 className="text-3xl font-bold text-rose-400 mb-1">{results.maximalTasks.length}</h4>
+              <p className="text-sm text-gray-400">Tareas Máximas</p>
             </div>
           </div>
           <div className="col-12 md:col-3">
-            <div className="text-center">
-              <h4 className="text-2xl font-bold text-purple-600">{dependencies.length}</h4>
-              <p className="text-sm text-gray-600">Dependencias</p>
+            <div className="text-center p-3 border-round" style={{background: 'rgba(168, 85, 247, 0.1)', border: '1px solid rgba(168, 85, 247, 0.2)'}}>
+              <h4 className="text-3xl font-bold text-purple-400 mb-1">{dependencies.length}</h4>
+              <p className="text-sm text-gray-400">Dependencias</p>
             </div>
           </div>
         </div>
