@@ -88,10 +88,10 @@ const HasseDiagram = () => {
   const [layoutDirection, setLayoutDirection] = React.useState('TB');
 
   const layoutOptions = [
-    { label: 'Top to Bottom', value: 'TB' },
-    { label: 'Left to Right', value: 'LR' },
-    { label: 'Bottom to Top', value: 'BT' },
-    { label: 'Right to Left', value: 'RL' }
+    { label: 'De arriba hacia abajo', value: 'TB' },
+    { label: 'De izquierda a derecha', value: 'LR' },
+    { label: 'De abajo hacia arriba', value: 'BT' },
+    { label: 'De derecha a izquierda', value: 'RL' }
   ];
 
   // Crear nodos y edges a partir de las tareas y dependencias
